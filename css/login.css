@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300;1,400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+    cursor: pointer;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-image:url("https://images.unsplash.com/photo-1485470733090-0aae1788d5af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1217&q=80");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 397px;
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+    background:rgba(3,3,3,0.5);
+    backdrop-filter:blur(53px);
+}
+
+form h2 {
+    text-align: center;
+    margin-bottom:67px;
+    margin-top:97px;
+    font-style:normal;
+    font-weight: 700;
+    font-size:32px;
+    line-height: 39px;
+    color:#fff;
+}
+
+form .submit {
+    width: 214px;
+    height: 45px;
+    margin:0px auto;
+    margin-top:90px;
+    background:#e82d2d;
+    color:#fff;
+    font-weight: bold;
+}
+
+form #username,form #password{
+    height: 51px;
+    width: 311px;
+    margin:0px auto;
+    background:transparent;
+    border:1px solid #fff8f8;
+    padding-left:23px;
+    color:#fff;
+    margin-bottom:20px;
+}
+
+form .username_error ,form .password_error{
+
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top:5px;
+    font-size:16px;
+    color:#ff127c;
+    /* display: none; */
+
+}
